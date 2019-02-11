@@ -9,11 +9,6 @@ $(document).ready(function () {
         crearPendiente();
     });
 
-    $('#txtPendiente').blur(function () {
-        if ($(this).val().length === 0) {
-            $(this).parents('p').addClass('warning');
-        }
-    });
 
 
     function responsive() {
