@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Famsa.AccesoDatos
 {
-    public class Class1
+    public static class Usuarios
     {
     }
 }

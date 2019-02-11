@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace Famsa.Modelos
 {
-    public class Pendiente
+    public class Usuario
     {
-        public int IdPendiente;
-        public string Descripcion{get; set; }
-        public string Estatus { get; set; }
+        public int IdUsuario { get; set; }
+        public string NombreUsuario { get; set; }
+        public string Contrasena { get; set; }
+        public string NombreCompleto { get; set; }
+        public string Email { get; set; }
         public DateTime FechaCreacion { get; set; }
         public DateTime FechaActualizacion { get; set; }
-        public int IdUsuario { get; set; }
+    
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Famsa.Logica
 {
-    public class Class1
+    public static class Usuarios
     {
     }
 }
